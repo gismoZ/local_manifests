@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com" name="https" />
+  <project name="gismoZ/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
+  <project name="gismoZ/SecuRadon" path="kernel/xiaomi/msm8956" remote="https" revision="radon-cm-mm-rebase" />
+  <project name="gismoZ/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="https" revision="cm-13.0" />
+  <project name="gismoZ/android_device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="https" revision="cm-13.0" />
+</manifest>
