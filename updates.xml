@@ -34,5 +34,12 @@
   <!-- Own repository for vendor/cm -->
   <remove-project name="LineageOS/android_vendor_cm" />
   <project name="gismoZ/android_vendor_cm" path="vendor/cm" remote="github"
-           revision="cm-13.0" /
+           revision="cm-13.0" />
+  
+  <!-- Own repository for frameworks/base -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="gismoZ/android_frameworks_base" path="frameworks/base" remote="github"
+           groups="pdk-cw-fs,pdk-fs"
+           revision="cm-13.0" />
+  
 </manifest>
