@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/xiaomi/beryllium" remote="github" name="gismoZ/android_device_xiaomi_beryllium" />
+  <project path="device/xiaomi/sdm845-common" remote="github" name="gismoZ/android_device_xiaomi_sdm845-common" />
+  <project path="kernel/xiaomi/sdm845" remote="github" name="gismoZ/android_kernel_xiaomi_sdm845" />
+
+  <remote name="gitlab_http" fetch="https://gitlab.com" />
+  <project name="the-muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab_http" clone-depth="1" />
+</manifest>
